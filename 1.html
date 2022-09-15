@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <main>
+        <section class="credit-card">
+            <div>
+                <div>
+                    <figure>
+                        <img src="chip.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="visa.png" alt="">
+                    </figure>
+                </div>
+
+                <div>
+                    <span># # # #</span>
+                    <span>* * * *</span>
+                    <span>* * * *</span>
+                    <span># # # #</span>
+                </div>
+
+                <div>
+                    <div>
+                        <span> card holder </span>
+                        <span> full name </span>
+                    </div>
+                    <div>
+                        <span> expires </span>
+                        <span>
+                             <span> MM </span>
+                             <span> / </span>
+                             <span> YY </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <form action="">
+                    <span> card number </span>
+                    <input type="text" onkeyup="_text(event)">
+                    <span> card holders </span>
+                    <input type="text" onkeyup="_text1(event)">
+                    <span> expiration date </span>
+                    <!--<input type="text">
+                    <input type="text">-->
+                    <select name="Month" id="">
+                        <option value="">Month</option>
+                        <option value="">01</option>
+                        <option value="">02</option>
+                        <option value="">03</option>
+                        <option value="">04</option>
+                        <option value="">05</option>
+                        <option value="">06</option>
+                        <option value="">07</option>
+                        <option value="">08</option>
+                        <option value="">09</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        
+                    </select>
+                    <select name="Year" id="">
+                        <option value="">Year</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                        <option value="">2028</option>
+                        <option value="">2029</option>
+                        <option value="">2030</option>
+                        <option value="">2031</option>
+                        <option value="">2032</option>
+                        <option value="">2033</option>
+                        
+                    </select>
+                    <span> cvv </span>
+                    <input type="text">
+                    <button> Submit </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="3.js"></script>
+</body>
+</html>
